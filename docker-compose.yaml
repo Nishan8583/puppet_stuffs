@@ -1,0 +1,5 @@
+version: "3.9"
+services:
+  puppset_server:
+    image: "puppet/puppetserver"
+    network_mode: "host"
